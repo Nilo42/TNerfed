@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="TNerfed - Comunidad de jugadores apasionados por la competencia en videojuegos.">
+    <meta name="keywords" content="TNerfed, videojuegos, esports, comunidad gamer, gaming, santa cruz, consolas, xbox, twich, gaming lounge tenerife, salón gaming santa cruz, pc gaming, consolas, torneos esports, juegos de mesa, realidad virtual, alquiler de consolas, comunidad gamer">
+    <meta name="author" content="TNerfed Team">
+    <title>TNerfed - En Construcción</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1 class="title">TNerfed</h1>
+    </header>
+    
+    <main>
+        <section id="nosotros">
+            <p class="intro">Somos un grupo de amigos apasionados por los videojuegos que,</p>
+            <p class="intro">buscando un lugar donde poder competir...</p>
+            <p class="intro highlight">¡¡Hemos acabado por crearlo nosotros!!</p>
+            
+            <div class="contact">
+                <p><strong>Contacto:</strong> 
+                    <a href="mailto:tnerfedoficial@gmail.com" aria-label="Enviar correo a TNerfed">
+                        📧 tnerfedoficial@gmail.com
+                    </a>
+                </p>
+                <p><strong>MÁS INFORMACIÓN:</strong> 
+                    <a href="https://www.instagram.com/tnerfed" target="_blank" aria-label="Instagram de TNerfed">
+                        📷 Instagram
+                    </a>
+                </p>
+            </div>
+
+            <p class="construction">(Página en obras)</p>
+        </section>
+    </main>
+
+    <script>
+        // Agregar animación de "página en construcción"
+        document.addEventListener("DOMContentLoaded", function() {
+            const message = document.querySelector(".construction");
+            setInterval(() => {
+                message.style.opacity = (message.style.opacity == 0 ? 1 : 0);
+            }, 1000);
+        });
+    </script>
+</body>
+</html>
